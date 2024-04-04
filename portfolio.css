@@ -1,0 +1,203 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    color: aliceblue;
+    padding: 0;
+    line-height: 1.6;
+    background-image: url(portfolioImage3.jpg)
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  }
+  
+  /* Navbar */
+  .navbar {
+    background-color: #2f4f4f;
+    color: #fff;
+    padding: 0px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 15%;
+    width: 100%;
+  }
+  
+  .navbar .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .logo {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  
+  .nav-links {
+    list-style: none;
+    display: flex;
+    align-items: center;
+  }
+  
+  .nav-links li {
+    margin-left: 20px;
+  }
+  
+  .nav-links a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+  }
+  
+  /* Hero Section */
+  .hero {
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url('hero-background.jpg');
+    background-size: cover;
+    background-position: center;
+  }
+  
+  .hero-title {
+    font-size: 48px;
+    font-weight: 600;
+  }
+  
+  .hero-desc {
+    font-size: 24px;
+    
+  }
+  
+  /* About Section */
+  .about {
+    padding: 100px 0;
+    background-image: url(web-background.jpg)
+  }
+  
+  .section-title {
+    font-size: 36px;
+    font-weight: 600;
+    
+    text-align: center;
+    }
+  
+  .about-content {
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-between;
+  }
+  
+  .about-text {
+    width: 60%;
+    color:floralwhite;
+  
+  }
+  
+  .about-img img {
+    width: 100%;
+    border-radius: 4px;
+  }
+  
+  /* Portfolio Section */
+  .portfolio {
+    padding: 100px 0;
+    background-image: url(background.jpg)
+  }
+  
+  .portfolio-item {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  
+  .portfolio-item img {
+    
+  /*  padding: 100px;*/
+    width: 50%;
+    border-radius: 1px;
+  }
+  
+  .portfolio-item h3 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  /* Contact Section */
+  .contact {
+    padding: 100px 0;
+    text-align: center;
+    background-position: center;
+    margin-left: 100px;
+    background-color: #000;
+    color: #fff;
+    opacity: .8;
+    margin: 500px;
+    padding: 10px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+      
+  }
+  .contact-form input,
+  .contact-form textarea,
+  .contact-form button {
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+  }
+  
+  .contact-form button {
+    width: auto;
+    background-color: #4CAF50;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  
+  .btn {
+    display: inline-block;
+    text-align: center;
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    
+    
+    margin-top: 30px;
+    font-size: 18px;
+    text-decoration: none;
+    border: none;
+    cursor: pointer;
+    
+  }
+  
+  .btn:hover {
+    background-color: #45a049;
+  }
+  
+  
+  
+  
+  
+  
+  
